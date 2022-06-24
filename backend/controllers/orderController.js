@@ -31,7 +31,7 @@ exports.newOrder = asyncErrorHandler(async (req, res, next) => {
 
     await sendEmail({
         email: req.user.email,
-        templateId: process.env.SENDGRID_ORDER_TEMPLATEID,
+        
         data: {
             name: req.user.name,
             shippingInfo,

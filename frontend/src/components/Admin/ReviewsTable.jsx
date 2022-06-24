@@ -19,6 +19,7 @@ const ReviewsTable = () => {
     const { loading, isDeleted, error: deleteError } = useSelector((state) => state.review);
 
     useEffect(() => {
+        console.log(productId);
         if (productId.length === 24) {
             dispatch(getAllReviews(productId));
         }
