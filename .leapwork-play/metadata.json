@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-30T14:05:36.222Z",
+  "repo": {
+    "connectorId": 249,
+    "repoSlug": "nitik89/finalproj",
+    "baseBranch": "main"
+  },
+  "team": {
+    "assetId": 9862,
+    "displayId": "TM-1",
+    "name": "New team"
+  },
+  "tree": [
+    {
+      "assetId": 20777,
+      "displayId": "TC-1",
+      "name": "New test case",
+      "kind": "test-case",
+      "repoPath": "TC-1-New-test-case.spec.ts"
+    },
+    {
+      "assetId": 20841,
+      "displayId": "TC-2",
+      "name": "New test case",
+      "kind": "test-case",
+      "repoPath": "TC-2-New-test-case.spec.ts"
+    }
+  ],
+  "files": [
+    {
+      "assetId": 20777,
+      "assetKind": "test-case",
+      "displayId": "TC-1",
+      "name": "New test case",
+      "repoPath": "TC-1-New-test-case.spec.ts",
+      "parentAssetId": 9862
+    },
+    {
+      "assetId": 20841,
+      "assetKind": "test-case",
+      "displayId": "TC-2",
+      "name": "New test case",
+      "repoPath": "TC-2-New-test-case.spec.ts",
+      "parentAssetId": 9862
+    }
+  ]
+}
